@@ -89,7 +89,7 @@ def compile_and_fit(model, X_train, y_train, X_val, y_val, class_weight=None, ep
         validation_data=(X_val, y_val),
         callbacks=[early_stopping, lr_scheduler],
         class_weight=class_weight,
-        verbose=1  # Changed to 1 to see training progress
+        verbose=1
     )
     
     return history
