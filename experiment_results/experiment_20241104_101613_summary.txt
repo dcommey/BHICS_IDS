@@ -1,0 +1,86 @@
+=== Experiment Summary ===
+
+
+Model: RF
+----------------------------------------
+
+Performance Metrics (mean ± std):
+accuracy: 0.9060 ± 0.1343
+precision: 0.9108 ± 0.1345
+recall: 0.8992 ± 0.1378
+f1_score: 0.9049 ± 0.1362
+
+Timing Metrics:
+Avg Training Time: 7.40s
+Avg Inference Time: 6135167.77ms
+
+Noise Impact Analysis:
+Noise 0.0: 0.9957 accuracy
+Noise 0.1: 0.9955 accuracy
+Noise 0.5: 0.9941 accuracy
+Noise 1.0: 0.9602 accuracy
+Noise 2.0: 0.8216 accuracy
+Noise 4.0: 0.6688 accuracy
+
+Model: XGB
+----------------------------------------
+
+Performance Metrics (mean ± std):
+accuracy: 0.9079 ± 0.1313
+precision: 0.9097 ± 0.1352
+recall: 0.9075 ± 0.1247
+f1_score: 0.9086 ± 0.1299
+
+Timing Metrics:
+Avg Training Time: 0.18s
+Avg Inference Time: 245943.34ms
+
+Noise Impact Analysis:
+Noise 0.0: 0.9959 accuracy
+Noise 0.1: 0.9955 accuracy
+Noise 0.5: 0.9936 accuracy
+Noise 1.0: 0.9624 accuracy
+Noise 2.0: 0.8226 accuracy
+Noise 4.0: 0.6774 accuracy
+
+Model: CNN
+----------------------------------------
+
+Performance Metrics (mean ± std):
+accuracy: 0.8628 ± 0.1657
+precision: 0.8627 ± 0.1735
+recall: 0.8754 ± 0.1363
+f1_score: 0.8684 ± 0.1556
+
+Timing Metrics:
+Avg Training Time: 92.72s
+Avg Inference Time: 42328828.38ms
+
+Noise Impact Analysis:
+Noise 0.0: 0.9955 accuracy
+Noise 0.1: 0.9955 accuracy
+Noise 0.5: 0.9822 accuracy
+Noise 1.0: 0.8817 accuracy
+Noise 2.0: 0.7158 accuracy
+Noise 4.0: 0.6061 accuracy
+
+Model: LSTM
+----------------------------------------
+
+Performance Metrics (mean ± std):
+accuracy: 0.9080 ± 0.1301
+precision: 0.9125 ± 0.1308
+recall: 0.9023 ± 0.1313
+f1_score: 0.9074 ± 0.1311
+
+Timing Metrics:
+Avg Training Time: 150.14s
+Avg Inference Time: 87125173.27ms
+
+Noise Impact Analysis:
+Noise 0.0: 0.9955 accuracy
+Noise 0.1: 0.9955 accuracy
+Noise 0.5: 0.9937 accuracy
+Noise 1.0: 0.9592 accuracy
+Noise 2.0: 0.8252 accuracy
+Noise 4.0: 0.6789 accuracy
